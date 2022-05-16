@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Feedback Form</title>
+    </head>
+    <body>
+        <h3>Feedback Form</h3>
+        <form method="post">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" min="3" max="50" minlength="3" maxlength="50" required/> 
+            </div>
+            <br>
+            <div>
+                <label for="portfolio">User's Webpage</label>
+                <input type="url" name="portfolio" id="portfolio" required/>
+            </div>
+            <div>
+                <label for="favColor">Favourite Color</label>
+                <input type="color" id="favColor" required/>
+            </div>
+            <div>
+                <label for="likeness">Like color</label>
+                <input type="range" id="likeness" min="1" max="100" required>
+            </div>
+            <br>
+            <button type="submit">Submit</button>
+
+        </form>
+    </body>
+</html>
